@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RougeRevit2021", "RougeRevit2021\RougeRevit2021.csproj", "{980019C9-C999-4073-AEA1-5F8F4AB55DD1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RougeRevitShared", "RougeRevitShared\RougeRevitShared.shproj", "{5CA5549E-4DAF-4BE3-9BFD-E713A2B5C263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RougeRevit2020", "RougeRevit2020\RougeRevit2020.csproj", "{F1147A65-2D3C-4BB8-9B52-941711F881A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RougeRevit2022", "RougeRevit2022\RougeRevit2022.csproj", "{97E0C540-7E28-4C7A-8748-70FB7C2DCC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RougeRevitForge", "RougeRevitForge\RougeRevitForge.csproj", "{A6CC73A0-198E-4153-8574-48EA65B40075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RougeRevitForge_LocalDebug", "RougeRevitForge_LocalDebug\RougeRevitForge_LocalDebug.csproj", "{9F307937-537C-4D60-A1F2-BF844C295DC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{980019C9-C999-4073-AEA1-5F8F4AB55DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980019C9-C999-4073-AEA1-5F8F4AB55DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980019C9-C999-4073-AEA1-5F8F4AB55DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980019C9-C999-4073-AEA1-5F8F4AB55DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1147A65-2D3C-4BB8-9B52-941711F881A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1147A65-2D3C-4BB8-9B52-941711F881A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1147A65-2D3C-4BB8-9B52-941711F881A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1147A65-2D3C-4BB8-9B52-941711F881A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E0C540-7E28-4C7A-8748-70FB7C2DCC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E0C540-7E28-4C7A-8748-70FB7C2DCC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E0C540-7E28-4C7A-8748-70FB7C2DCC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E0C540-7E28-4C7A-8748-70FB7C2DCC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CC73A0-198E-4153-8574-48EA65B40075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CC73A0-198E-4153-8574-48EA65B40075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CC73A0-198E-4153-8574-48EA65B40075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CC73A0-198E-4153-8574-48EA65B40075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F307937-537C-4D60-A1F2-BF844C295DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F307937-537C-4D60-A1F2-BF844C295DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F307937-537C-4D60-A1F2-BF844C295DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F307937-537C-4D60-A1F2-BF844C295DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F7F7432-1BE6-4D1B-9EE2-C102A9450B8F}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RougeRevitShared\RougeRevitShared.projitems*{5ca5549e-4daf-4be3-9bfd-e713a2b5c263}*SharedItemsImports = 13
+		RougeRevitShared\RougeRevitShared.projitems*{97e0c540-7e28-4c7a-8748-70fb7c2dcc50}*SharedItemsImports = 4
+		RougeRevitShared\RougeRevitShared.projitems*{980019c9-c999-4073-aea1-5f8f4ab55dd1}*SharedItemsImports = 4
+		RougeRevitShared\RougeRevitShared.projitems*{9f307937-537c-4d60-a1f2-bf844c295dc5}*SharedItemsImports = 4
+		RougeRevitShared\RougeRevitShared.projitems*{a6cc73a0-198e-4153-8574-48ea65b40075}*SharedItemsImports = 4
+		RougeRevitShared\RougeRevitShared.projitems*{f1147a65-2d3c-4bb8-9b52-941711f881a6}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal

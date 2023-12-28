@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5ca5549e-4daf-4be3-9bfd-e713a2b5c263</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RougeRevitShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Commands\ReadRougeLocal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Commands\ReadRougeDB.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Elements\ViewCreation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Elements\CustomData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Elements\RougeData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Elements\RougeElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Utilities\Ext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Utilities\Log.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scripts\Utilities\Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)install.bat" />
+  </ItemGroup>
+</Project>

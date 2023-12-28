@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Text>Read Rouge File</Text>
+		<Name>CreateRGEDesign</Name>
+		<Description>Creates a building from a file saved from Rouge</Description>
+		<Assembly>C:\ProgramData\Autodesk\Revit\Addins\2022\RougeRevit.dll</Assembly>
+		<FullClassName>RougeRevit.ReadRougeLocal</FullClassName>
+		<ClientId>FB59B6DB-A19E-47A8-AC7B-4C41BD9D5C74</ClientId>
+		<VendorId>AUARxModulous</VendorId>
+		<VendorDescription>automatedarchitecture.io</VendorDescription>
+	</AddIn>
+</RevitAddIns>

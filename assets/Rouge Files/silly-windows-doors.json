@@ -1,0 +1,386 @@
+{
+    "templates": [],
+    "roots": [
+        {
+            "name": "apartment",
+            "uuid": "102c8dbf-025e-4129-96fe-1da049a66646",
+            "pos": [
+                0,
+                0,
+                0
+            ],
+            "rot": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                3.1131098949909206,
+                1.0010000059604645,
+                3.1131098949909206
+            ],
+            "anchor": [
+                0.5,
+                5.954510020844415e-9,
+                0.5
+            ],
+            "color": "#cccccc",
+            "alpha": 0,
+            "type": "Apartment",
+            "children": [
+                {
+                    "name": "module",
+                    "uuid": "8dfb77ae-93e4-4b62-b97b-5245c3a53430",
+                    "pos": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "rot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "size": [
+                        3.1099999994039536,
+                        1.0000000059604648,
+                        3.1099999994039536
+                    ],
+                    "anchor": [
+                        0.5,
+                        5.960464530829765e-9,
+                        0.5
+                    ],
+                    "color": "#cccccc",
+                    "alpha": 0.2,
+                    "type": "Module",
+                    "children": [
+                        {
+                            "name": "wall",
+                            "uuid": "7ec48c9d-b8c0-4b84-8429-947a9569a377",
+                            "pos": [
+                                0,
+                                0,
+                                -1.5
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": [
+                                {
+                                    "name": "door",
+                                    "uuid": "74195559-7483-4624-9d49-6fed01d33f7f",
+                                    "pos": [
+                                        -0.2,
+                                        0,
+                                        0
+                                    ],
+                                    "rot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "size": [
+                                        0.5,
+                                        0.8,
+                                        0.11
+                                    ],
+                                    "anchor": [
+                                        1,
+                                        0,
+                                        0.5
+                                    ],
+                                    "color": "#4469BE",
+                                    "alpha": 0.5,
+                                    "type": "Door",
+                                    "modulousId": "DIS|04|00",
+                                    "children": []
+                                },
+                                {
+                                    "name": "door",
+                                    "uuid": "edd5c654-9178-41c4-bdf1-4f814565481c",
+                                    "pos": [
+                                        0.2,
+                                        0,
+                                        0
+                                    ],
+                                    "rot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "size": [
+                                        0.5,
+                                        0.8,
+                                        0.11
+                                    ],
+                                    "anchor": [
+                                        0,
+                                        0,
+                                        0.5
+                                    ],
+                                    "color": "#4469BE",
+                                    "alpha": 0.5,
+                                    "type": "Door",
+                                    "modulousId": "DIS|04|00",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "fca3f3b4-ac78-4036-ae17-02e92244dc96",
+                            "pos": [
+                                0,
+                                0,
+                                1.5
+                            ],
+                            "rot": [
+                                180,
+                                0,
+                                180
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": [
+                                {
+                                    "name": "window",
+                                    "uuid": "e5608ee2-452a-4277-85cd-035f76cfbefc",
+                                    "pos": [
+                                        1.45,
+                                        0.15,
+                                        0
+                                    ],
+                                    "rot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "size": [
+                                        1,
+                                        0.7,
+                                        0.11
+                                    ],
+                                    "anchor": [
+                                        1,
+                                        0,
+                                        0.5
+                                    ],
+                                    "color": "#4469BE",
+                                    "alpha": 0.5,
+                                    "type": "Window",
+                                    "modulousId": "WNS|08|00",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "055d0aed-230b-4864-b600-1f0df0163fea",
+                            "pos": [
+                                -1.5,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                90,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": [
+                                {
+                                    "name": "door",
+                                    "uuid": "2d7fd5f3-1186-427b-a5f1-8c8b6fb06066",
+                                    "pos": [
+                                        0.25,
+                                        0,
+                                        0
+                                    ],
+                                    "rot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "size": [
+                                        0.5,
+                                        0.8,
+                                        0.11
+                                    ],
+                                    "anchor": [
+                                        0,
+                                        0,
+                                        0.5
+                                    ],
+                                    "color": "#4469BE",
+                                    "alpha": 0.5,
+                                    "type": "Door",
+                                    "modulousId": "DIS|04|00",
+                                    "children": []
+                                },
+                                {
+                                    "name": "door",
+                                    "uuid": "b482b4f5-7add-4f3f-a451-70f1a0518591",
+                                    "pos": [
+                                        -0.25,
+                                        0,
+                                        0
+                                    ],
+                                    "rot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "size": [
+                                        0.5,
+                                        0.8,
+                                        0.11
+                                    ],
+                                    "anchor": [
+                                        1,
+                                        0,
+                                        0.5
+                                    ],
+                                    "color": "#4469BE",
+                                    "alpha": 0.5,
+                                    "type": "Door",
+                                    "modulousId": "DIS|04|00",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "c813ed41-7949-4fd2-9093-4c56f57f874d",
+                            "pos": [
+                                1.5,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                -90,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": [
+                                {
+                                    "name": "window",
+                                    "uuid": "fb18ae66-3ceb-4fcc-8099-e3f480029aa5",
+                                    "pos": [
+                                        -1.45,
+                                        0.15,
+                                        0
+                                    ],
+                                    "rot": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "size": [
+                                        1,
+                                        0.7,
+                                        0.11
+                                    ],
+                                    "anchor": [
+                                        0,
+                                        0,
+                                        0.5
+                                    ],
+                                    "color": "#4469BE",
+                                    "alpha": 0.5,
+                                    "type": "Window",
+                                    "modulousId": "WNS|08|00",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "floor",
+                            "uuid": "b32693ee-ab3a-452c-9a4a-a2dcfd338019",
+                            "pos": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                2.9,
+                                0.1,
+                                2.9
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#f38630",
+                            "alpha": 1,
+                            "type": "Floor",
+                            "modulousId": "FFN|01|00",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

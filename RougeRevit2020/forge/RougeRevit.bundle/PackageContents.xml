@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage>
+  <Components Description="Rouge Revit">
+    <RuntimeRequirements OS="Win64"
+                         Platform="Revit"
+                         SeriesMin="R2020"
+                         SeriesMax="R2020" />
+    <ComponentEntry AppName="CreateRGEDesign"
+                    Version="1.0.0"
+                    ModuleName="./Contents/RougeRevitAddIn.addin"
+                    AppDescription="Rouge to Revit"
+                    LoadOnCommandInvocation="False"
+                    LoadOnRevitStartup="True" />
+     <ComponentEntry AppName="MyTestPackage.Newtonsoft.Json"
+                    AppType="Dependency"
+                    ModuleName="./Contents/Newtonsoft.Json.dll"
+                    AppDescription="JSON processing library"
+                    LoadOnRevitStartup="False"
+                  />
+  </Components>
+</ApplicationPackage>

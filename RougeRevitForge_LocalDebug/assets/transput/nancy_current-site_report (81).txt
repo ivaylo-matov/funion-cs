@@ -1,0 +1,797 @@
+[06/27/2023 13:43:31] Job information:
+"CommandLine":[
+  "$(engine.path)\\\\revitcoreconsole.exe /i \"$(args[inputFile].path)\"  /al \"$(appbundles[RougeRevitApp].path)\" "
+]
+"Settings":{
+  "SupressWarnings": {
+    "value": "True"
+  },
+  "dasOpenNetwork": {
+    "value": "true",
+    "isEnvironmentVariable": true
+  }
+}
+"Id":"975aa47a7ed24253941c0fc70da7eaba"
+"ActivityId":"RevitTest230426.RougeRevitActivity+test"
+"Engine.Id":"Autodesk.Revit_2021!104"
+"Apps": [
+"App.Id":"RevitTest230426.RougeRevitApp!19"
+]
+"BoundArguments":{
+  "inputFile": {
+    "localName": "templateScarlet.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:Itp/pTU+qTUo1U9mrqKyo0SPTTg="
+  },
+  "inputJson": {
+    "localName": "current-site.json",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:USXvqHn4lB0EztNbEL7QryAGIgQ="
+  },
+  "unitFile01": {
+    "localName": "Scarlet 100_1B2Pv1.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:23mQgxdd+9pYnT6KsV1Soiie7O0="
+  },
+  "unitFile02": {
+    "localName": "Scarlet 101_1B2Pv2.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:pZXxp4ylLRZm43eSqHVm+S+pKFA="
+  },
+  "unitFile03": {
+    "localName": "Scarlet 200_2B3Pv1.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:yVhll401bE5lp54XUp4pBrfBcEE="
+  },
+  "unitFile04": {
+    "localName": "Scarlet 201_2B4Pv1.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:yVhll401bE5lp54XUp4pBrfBcEE="
+  },
+  "unitFile05": {
+    "localName": "Scarlet 202_2B3Pv2.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:tuAubTWwr/WmbBaOU6ZySxPh5ac="
+  },
+  "unitFile06": {
+    "localName": "Scarlet 300_3B5Pv1.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:yAcWpobtme8o+dcgj5C9MDOP8pg="
+  },
+  "unitFile07": {
+    "localName": "Scarlet 301_3B6Pv1.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:Kd6mdD1TqGf6mhp1S/3CuUltQ4s="
+  },
+  "OUTPUT_FILE": {
+    "localName": "TessaDesignOption.rvt",
+    "url": "https://mcs-revitdata.s3.eu-west-2.amazonaws.com/Masked:IPKpyG2711dHPOccdHf33xoskOY=",
+    "verb": "put"
+  },
+  "onProgress": {
+    "ondemand": true,
+    "url": "https://wlnr5sjl3a.execute-api.us-east-1.amazonaws.com/Masked:UK/Z3b5X3xUWxXiH6C9r9i9UlRU=",
+    "headers": {
+      "Content-Type": "application/json",
+      "x-das-authorize": "awssigv4(us-east-1)",
+      "x-ads-token-data": "{\"access_token\":{\"client_id\":\"Nji1ZrIjOEmQ4CAiEOMSu0VI5sJMD0Ad\"},\"scope\":\"code:all data:write data:read bucket:create bucket:delete\",\"expires_in\":3436,\"client_id\":\"Nji1ZrIjOEmQ4CAiEOMSu0VI5sJMD0Ad\"}",
+      "x-ads-gateway-secret": "Masked:F6VCvje5cIP0zOGCxgARjmSopQI="
+    },
+    "verb": "put"
+  }
+}
+"Quotas":{
+  "limitProcessingTimeSec": 10800,
+  "limitTotalUncompressedAppsSizeInMB": 5000
+}
+[06/27/2023 13:43:31] Starting work item 975aa47a7ed24253941c0fc70da7eaba
+[06/27/2023 13:43:31] Start download phase.
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/template/templateScarlet.rvt?X-Amz-Expires=17958&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132342Z&X-Amz-SignedHeaders=host&X-Amz-Signature=685da8b6d4f7a11dd8f3345e33648ad1d06f1bdc80743921175fa5794121dd4b'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/input/current-site.json?X-Amz-Expires=17979&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132321Z&X-Amz-SignedHeaders=host&X-Amz-Signature=e14beaa1c1c2c9aa9dbcdecd3fd3d37cf50cb744e281674cdcc6cbbd80a5f467'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 100_1B2Pv1.rvt?X-Amz-Expires=17989&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T134311Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f8c2b8b4f42c3d48206882c2b5e8a81afe4a40f2620b43b4f93e44bea482eeaf'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 101_1B2Pv2.rvt?X-Amz-Expires=17963&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132436Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a80fa2719321da27587bdc11ab6d482d6cc2dda18bb8ebbe80d793b56e8ce620'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 202_2B3Pv2.rvt?X-Amz-Expires=17947&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132452Z&X-Amz-SignedHeaders=host&X-Amz-Signature=8a92938ea0e87139224616e9a8b7cb8ec68829cddb5aad243c9b0c105f8c1a49'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 202_2B3Pv2.rvt?X-Amz-Expires=17947&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132452Z&X-Amz-SignedHeaders=host&X-Amz-Signature=8a92938ea0e87139224616e9a8b7cb8ec68829cddb5aad243c9b0c105f8c1a49'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 300_3B5Pv1.rvt?X-Amz-Expires=17979&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132520Z&X-Amz-SignedHeaders=host&X-Amz-Signature=ea5185d64b05b1c5482b6199c376358a4cc3a699e2dd1b3cc5bfe3d1d44a7399'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 301_3B6Pv1.rvt?X-Amz-Expires=17958&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132541Z&X-Amz-SignedHeaders=host&X-Amz-Signature=2c4218a32e8f20ea7c6fe77a12bf7b64aba537c3e52014900c036a63ebcffacb'
+[06/27/2023 13:43:31] Start downloading input: verb - 'GET', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 201_2B4Pv1.rvt?X-Amz-Expires=17942&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132558Z&X-Amz-SignedHeaders=host&X-Amz-Signature=20aa8a682d08cd3b85f3f2bab7efea2fc682b4e1e62a53beba3d274558b45d26'
+[06/27/2023 13:43:32] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/input/current-site.json?X-Amz-Expires=17979&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132321Z&X-Amz-SignedHeaders=host&X-Amz-Signature=e14beaa1c1c2c9aa9dbcdecd3fd3d37cf50cb744e281674cdcc6cbbd80a5f467,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\current-site.json,BytesDownloaded=1023391,Duration=831ms
+[06/27/2023 13:43:32] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 202_2B3Pv2.rvt?X-Amz-Expires=17947&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132452Z&X-Amz-SignedHeaders=host&X-Amz-Signature=8a92938ea0e87139224616e9a8b7cb8ec68829cddb5aad243c9b0c105f8c1a49,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\Scarlet 201_2B4Pv1.rvt,BytesDownloaded=13897728,Duration=1169ms
+[06/27/2023 13:43:32] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 101_1B2Pv2.rvt?X-Amz-Expires=17963&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132436Z&X-Amz-SignedHeaders=host&X-Amz-Signature=a80fa2719321da27587bdc11ab6d482d6cc2dda18bb8ebbe80d793b56e8ce620,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\Scarlet 101_1B2Pv2.rvt,BytesDownloaded=13631488,Duration=1290ms
+[06/27/2023 13:43:33] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 201_2B4Pv1.rvt?X-Amz-Expires=17942&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132558Z&X-Amz-SignedHeaders=host&X-Amz-Signature=20aa8a682d08cd3b85f3f2bab7efea2fc682b4e1e62a53beba3d274558b45d26,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\Scarlet 301_3B6Pv1.rvt,BytesDownloaded=24096768,Duration=1791ms
+[06/27/2023 13:43:33] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 100_1B2Pv1.rvt?X-Amz-Expires=17989&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T134311Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f8c2b8b4f42c3d48206882c2b5e8a81afe4a40f2620b43b4f93e44bea482eeaf,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\Scarlet 100_1B2Pv1.rvt,BytesDownloaded=13508608,Duration=2124ms
+[06/27/2023 13:43:33] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 300_3B5Pv1.rvt?X-Amz-Expires=17979&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132520Z&X-Amz-SignedHeaders=host&X-Amz-Signature=ea5185d64b05b1c5482b6199c376358a4cc3a699e2dd1b3cc5bfe3d1d44a7399,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\Scarlet 202_2B3Pv2.rvt,BytesDownloaded=17489920,Duration=2430ms
+[06/27/2023 13:43:33] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 301_3B6Pv1.rvt?X-Amz-Expires=17958&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132541Z&X-Amz-SignedHeaders=host&X-Amz-Signature=2c4218a32e8f20ea7c6fe77a12bf7b64aba537c3e52014900c036a63ebcffacb,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\Scarlet 300_3B5Pv1.rvt,BytesDownloaded=17575936,Duration=2491ms
+[06/27/2023 13:43:33] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/apartments/Scarlet 202_2B3Pv2.rvt?X-Amz-Expires=17947&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132452Z&X-Amz-SignedHeaders=host&X-Amz-Signature=8a92938ea0e87139224616e9a8b7cb8ec68829cddb5aad243c9b0c105f8c1a49,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\Scarlet 200_2B3Pv1.rvt,BytesDownloaded=13897728,Duration=2502ms
+[06/27/2023 13:43:34] End downloading file. Source=https://mcs-revitdata.s3.eu-west-2.amazonaws.com/template/templateScarlet.rvt?X-Amz-Expires=17958&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132342Z&X-Amz-SignedHeaders=host&X-Amz-Signature=685da8b6d4f7a11dd8f3345e33648ad1d06f1bdc80743921175fa5794121dd4b,LocalFile=T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\templateScarlet.rvt,BytesDownloaded=18350080,Duration=2897ms
+[06/27/2023 13:43:34] End download phase successfully.
+[06/27/2023 13:43:34] Start preparing script and command line parameters.
+[06/27/2023 13:43:34] Command line: [ /i "T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\templateScarlet.rvt"  /al "T:\Aces\Applications\ece174bdd8a5ff2c7ef27e51d62f38ec.RevitTest230426.RougeRevitApp[19].package" ]
+[06/27/2023 13:43:34] End preparing script and command line parameters.
+[06/27/2023 13:43:34] Start script phase.
+[06/27/2023 13:43:34] Start Revit Core Engine standard output dump.
+[06/27/2023 13:43:34] Running in unattended mode.
+[06/27/2023 13:43:34] ====== Revit is running: revitcoreconsole ======
+[06/27/2023 13:43:34] Current Exe path: T:\Aces\AcesRoot\21.0\coreEngine\Exe\revitcoreconsole.exe
+[06/27/2023 13:43:34] Echoing command line args:
+[06/27/2023 13:43:34]   0:/i
+[06/27/2023 13:43:34]   1:T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\templateScarlet.rvt
+[06/27/2023 13:43:34]   2:/al
+[06/27/2023 13:43:34]   3:T:\Aces\Applications\ece174bdd8a5ff2c7ef27e51d62f38ec.RevitTest230426.RougeRevitApp[19].package
+[06/27/2023 13:43:34]   4:/isolate
+[06/27/2023 13:43:34]   5:HKEY_CURRENT_USER\SOFTWARE\AppDataLow\Software\Autodesk\CoreUser\WorkItem_975aa47a7ed24253941c0fc70da7eaba
+[06/27/2023 13:43:34]   6:T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\userdata
+[06/27/2023 13:43:34] Running RevitAssemblyResolver....
+[06/27/2023 13:43:34] Initializing RevitCoreEngine...
+[06/27/2023 13:43:34] Selected Revit\RCE install Path: (from app.config) C:\Revit2021
+[06/27/2023 13:43:34] Resolving location of Revit/RevitCoreEngine installation...
+[06/27/2023 13:43:34] Running user application....
+[06/27/2023 13:43:39] Found an addIn for registration: RougeRevitAddIn.addin
+[06/27/2023 13:43:39] Initializing RCE....
+[06/27/2023 13:43:39] Initializing RevitCoreEngine (and possibly running stub installer)...
+[06/27/2023 13:43:39] Language not specified, using English-United States(ENU) as default.
+[06/27/2023 13:43:42] Add in Startup
+[06/27/2023 13:43:42] Initialize and  get RCE: (VersionBuild) 21.1.70.21 (VersionNumber) 2021 (SubVersionNumber) 2021.2
+[06/27/2023 13:43:49] Design Automation Ready event triggered...
+[06/27/2023 13:45:02] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:03] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:03] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:03] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:04] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:04] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:04] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:04] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:04] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:05] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:05] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:05] Failure #0: FailureDefinitionId-'6650b20b-592d-41a0-9f52-51f5f26e3fc3', Severity-'Error', Description-'Can't keep elements joined.', Resolution-'Unjoin Elements'.
+[06/27/2023 13:45:05] Failure #0: FailureDefinitionId-'eafffb69-bdac-4f83-ad08-a7acd86e9f69', Severity-'Error', Description-'Can't make Wall. ', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:05] Failure #0: FailureDefinitionId-'eafffb69-bdac-4f83-ad08-a7acd86e9f69', Severity-'Error', Description-'Can't make Wall. ', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'eafffb69-bdac-4f83-ad08-a7acd86e9f69', Severity-'Error', Description-'Can't make Wall. ', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'eafffb69-bdac-4f83-ad08-a7acd86e9f69', Severity-'Error', Description-'Can't make Wall. ', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:06] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:07] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:08] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:09] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'9e039ed2-44c3-4f24-b836-27068f12c4e5', Severity-'Warning', Description-'Rectangular opening doesn't cut its host.', Resolution-'Delete Instance(s)'.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:18] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:19] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:20] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:21] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:22] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:23] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:24] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:25] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:26] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:27] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:28] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:29] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:30] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:31] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:32] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:33] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:34] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:35] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:36] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:37] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:38] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:39] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:40] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:41] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:42] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:43] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:44] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:45] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:46] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:47] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:48] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:49] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:50] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:51] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:52] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:53] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:54] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:55] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:56] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:57] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:58] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:45:59] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:00] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:01] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:02] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:03] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:04] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:05] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:06] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:07] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:08] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:09] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:10] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:11] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:12] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:13] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:14] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:15] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:16] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'6891f0e6-5858-4e2f-bb34-801e0b87f60d', Severity-'Warning', Description-'Highlighted lines overlap. Lines may not form closed loops.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:17] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:18] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:18] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:18] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:18] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:18] Failure #0: FailureDefinitionId-'988a6cb2-7050-4a5c-a946-60d652df66c3', Severity-'Warning', Description-'Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.', Resolution-''.
+[06/27/2023 13:46:18] Saving file...
+[06/27/2023 13:46:29] Finished running.  Process will return: Success
+[06/27/2023 13:46:29] ====== Revit finished running: revitcoreconsole ======
+[06/27/2023 13:46:30] End Revit Core Engine standard output dump.
+[06/27/2023 13:46:30] End script phase.
+[06/27/2023 13:46:30] Start upload phase.
+[06/27/2023 13:46:30] Uploading 'T:\Aces\Jobs\975aa47a7ed24253941c0fc70da7eaba\TessaDesignOption.rvt': verb - 'PUT', url - 'https://mcs-revitdata.s3.eu-west-2.amazonaws.com/output/TessaDesignOption.rvt?X-Amz-Expires=17937&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4UWCMY5HMBBBPXUH/20230627/eu-west-2/s3/aws4_request&X-Amz-Date=20230627T132402Z&X-Amz-SignedHeaders=host&X-Amz-Signature=751258d33eb08f33e6eecef526e73c75bfa95a64106a3c384953dc1ad29f51a5'
+[06/27/2023 13:46:32] End upload phase successfully.
+[06/27/2023 13:46:32] Job finished with result Succeeded
+[06/27/2023 13:46:32] Job Status:
+{
+  "status": "success",
+  "reportUrl": "https://dasprod-store.s3.amazonaws.com/workItem/RevitTest230426/975aa47a7ed24253941c0fc70da7eaba/report.txt?X-Amz-Expires=48600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFnmi3HjPqVy3nuvXCCFJTvsBCiPK4fYTSPzXoTw48mLAiEA5wjopHOA5Q17H0dqeFYXLbsMsR883Crhg2krgEdftMwqgAMIXxADGgwyMjA0NzMxNTIzMTAiDD%2FultCYSrsQ7nNzlCrdAuShAVlZbTqd%2BsfkgqLhweDZmM3uWHvetpgV5X%2FXubOthaDLevK97cfyAZ5hYqxcVuLkJfa49pm%2Fi8%2FDfdr2gOgv2clcQVRHakoKVRBXx%2B1gZP5PFsWEbvIZGdOiJUcG46KLtQgnESR7aF2riqaYxAaKqB%2F1uw%2BucJCvXNsizLRKKaH2Us%2BPE4uZ4Xn02wJN8WHANHpm%2BWRzvC7hFuG14UUNvMtyWWJ2N3801X2w0WJ411CuTBWtGb2%2Bc05wjtzmdJ%2BGVfGI%2FgrI9WR4uKHUiE5622je5B0Mz%2F920mtoqj76QsONU4tqtUqJvqtqpVH%2BRc%2F4YAsE%2Fv%2Ft4ABZNea3uOlpoAvVLoignU30KHULRpZjmKabXOXt13j44yn7nxD%2BR9WO2V0N6HrAVwgCGuk6q5W8Irr%2FwMv9M9oInLKsGhCiDWqaFRQMe8G0pNU9WBbERmP2UKtYBz68ZZNVP%2FEww8vrpAY6ngG1CV00zU4RK48C%2FH56ei6uJQ8XOdIYweq858SfeMVNS40HqvrOnLHXWJPoU769FECaYoBWz5zXrRwiSs8QfdAvhzyTAsqfEHjIuh4qMgy2O6ql%2F89TIeZJ6Vgaro73tgFMr%2B4b%2F16Zfhe2k79K6VzRh0jTu1xIlvKCnbY0irg2PXWlcOZYJwHTYIPnaUdemw85WF1109OtSFfOfyxQGQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIATGVJZKM3BWSEBJNR/20230627/us-east-1/s3/aws4_request&X-Amz-Date=20230627T134331Z&X-Amz-SignedHeaders=host&X-Amz-Signature=796b7e5e39bd8616c62532f14e76c937fb8d907f7a60f0b2f63a5768674dbc4e",
+  "stats": {
+    "timeQueued": "2023-06-27T13:43:31.1755981Z",
+    "timeDownloadStarted": "2023-06-27T13:43:31.3665141Z",
+    "timeInstructionsStarted": "2023-06-27T13:43:34.3710853Z",
+    "timeInstructionsEnded": "2023-06-27T13:46:30.8178029Z",
+    "timeUploadEnded": "2023-06-27T13:46:32.2548735Z",
+    "bytesDownloaded": 133471647,
+    "bytesUploaded": 19505152
+  },
+  "id": "975aa47a7ed24253941c0fc70da7eaba"
+}

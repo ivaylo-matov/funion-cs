@@ -1,0 +1,469 @@
+{
+    "templates": [],
+    "roots": [
+        {
+            "name": "apartment",
+            "uuid": "84604605-ff23-4def-a915-952671467af2",
+            "pos": [
+                0,
+                0,
+                0
+            ],
+            "rot": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                0,
+                0,
+                0
+            ],
+            "anchor": [
+                0.5,
+                0,
+                0.5
+            ],
+            "color": "#cccccc",
+            "alpha": 0,
+            "type": "Apartment",
+            "children": [
+                {
+                    "name": "module",
+                    "uuid": "a4466be0-5cd2-4a0f-9989-febdbfc8adbb",
+                    "pos": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "rot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "size": [
+                        3.1,
+                        1.1,
+                        3.1
+                    ],
+                    "anchor": [
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "color": "#cccccc",
+                    "alpha": 0.2,
+                    "type": "Module",
+                    "children": [
+                        {
+                            "name": "wall",
+                            "uuid": "72b8ff96-3675-45e3-96fb-8fc7410c322e",
+                            "pos": [
+                                0,
+                                0,
+                                -1.5
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "889996ed-6f7c-437e-9591-7a4441a9eb6c",
+                            "pos": [
+                                0,
+                                0,
+                                1.5
+                            ],
+                            "rot": [
+                                180,
+                                0,
+                                180
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "f2f6b5d3-439a-436a-adbd-7938ae4f0900",
+                            "pos": [
+                                -1.5,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                90,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "c208a4a5-e41c-4af6-b748-3577753af140",
+                            "pos": [
+                                1.5,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                -90,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "ceiling",
+                            "uuid": "5853a7e1-a378-48c7-80bf-a135edc40979",
+                            "pos": [
+                                0,
+                                1.1,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                0.1,
+                                3
+                            ],
+                            "anchor": [
+                                0.5,
+                                1,
+                                0.5
+                            ],
+                            "color": "#fa6900",
+                            "alpha": 1,
+                            "type": "Ceiling",
+                            "modulousId": "CPA|04|00",
+                            "children": []
+                        },
+                        {
+                            "name": "floor",
+                            "uuid": "2073f9c8-e239-438f-941d-1c16d24581fb",
+                            "pos": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                2.9,
+                                0.1,
+                                2.9
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#f38630",
+                            "alpha": 1,
+                            "type": "Floor",
+                            "modulousId": "FFN|01|00",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "apartment",
+            "uuid": "cc67d88e-5442-4605-b964-a45184006655",
+            "pos": [
+                0,
+                3,
+                0
+            ],
+            "rot": [
+                0,
+                0,
+                0
+            ],
+            "size": [
+                0,
+                0,
+                0
+            ],
+            "anchor": [
+                0.5,
+                0,
+                0.5
+            ],
+            "color": "#cccccc",
+            "alpha": 0,
+            "type": "Apartment",
+            "children": [
+                {
+                    "name": "module",
+                    "uuid": "8baee7ea-8da7-46cc-a692-e6334aeb10db",
+                    "pos": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "rot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "size": [
+                        3.1,
+                        1.1,
+                        3.1
+                    ],
+                    "anchor": [
+                        0.5,
+                        0,
+                        0.5
+                    ],
+                    "color": "#cccccc",
+                    "alpha": 0.2,
+                    "type": "Module",
+                    "children": [
+                        {
+                            "name": "wall",
+                            "uuid": "7b3eacb8-0a2c-46f1-ad33-9bef40f2d866",
+                            "pos": [
+                                0,
+                                0,
+                                -1.5
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "efa20e55-412c-402c-a440-b780af1f809f",
+                            "pos": [
+                                0,
+                                0,
+                                1.5
+                            ],
+                            "rot": [
+                                180,
+                                0,
+                                180
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "d160a421-7c08-48c4-a18e-01e3e27b7e4a",
+                            "pos": [
+                                -1.5,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                90,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "wall",
+                            "uuid": "2721572d-5af3-433f-8a29-1719bfd2456c",
+                            "pos": [
+                                1.5,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                -90,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                1,
+                                0.1
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#a7dbd8",
+                            "alpha": 1,
+                            "type": "Wall",
+                            "modulousId": "WPA|01|00",
+                            "children": []
+                        },
+                        {
+                            "name": "ceiling",
+                            "uuid": "93c63a25-4b0b-451b-b3e5-31f4890a2895",
+                            "pos": [
+                                0,
+                                1.1,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                3,
+                                0.1,
+                                3
+                            ],
+                            "anchor": [
+                                0.5,
+                                1,
+                                0.5
+                            ],
+                            "color": "#fa6900",
+                            "alpha": 1,
+                            "type": "Ceiling",
+                            "modulousId": "CPA|04|00",
+                            "children": []
+                        },
+                        {
+                            "name": "floor",
+                            "uuid": "50d510fc-9e7c-486f-9d14-3f5e2037e9ef",
+                            "pos": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "rot": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "size": [
+                                2.9,
+                                0.1,
+                                2.9
+                            ],
+                            "anchor": [
+                                0.5,
+                                0,
+                                0.5
+                            ],
+                            "color": "#f38630",
+                            "alpha": 1,
+                            "type": "Floor",
+                            "modulousId": "FFN|01|00",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
