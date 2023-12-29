@@ -20,5 +20,5 @@ Read a JSON file exported from `rg-designer` in Revit, reading the elements from
 Rouge elements that are supported: `Wall` `Floor` `Roof` `Ceiling` `Windows` `Doors`
 
 ## Current limitations
-Levels are infrred from the element's parent `Module` or `Apartment`. The levels should exist in the current file prior to the command execution and are not (yet) informed from the input file.
+Levels are inferred from the element's parent `Module` or `Apartment`. The levels should exist in the current file prior to the command execution and are not (yet) informed from the input file.
 Instance properties (intended to be defined by the `Code: Spec` parameter) are not implemented yet. Updated template and a defined database, structured and populated, is required to do so.
